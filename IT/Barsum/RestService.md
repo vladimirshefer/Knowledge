@@ -2,7 +2,7 @@
 
 ### Класс `etl.rest.RuleRoute`
 
-Чтобы зарегистрировать наш серсис, используйте класс RuleRoute.
+Чтобы зарегистрировать серсис, используйте класс RuleRoute.
 
 Добавляем 
 
@@ -39,9 +39,34 @@ Copy+Paste
 
 
 
-### Класс `NAMEService` 
+### Класс `NAMEService`
 
 ```scala
 class SignupService(options: SparkOptions) 
 extends MetricsDecoratedRestService [SignupRequest, SignupResponse, String]
 ```
+
+
+
+У класса `MetricsDecoratedRestService` есть 4 метода
+
+1. `def validate (input: NAMERequest): Boolean`
+
+2. `def respondSuccess (inputAsJson: String, input: NAMERequest): NAMEResponse`
+
+3. `def respondFailure (inputAsJson: String, input: NAMERequest): NAMEResponse`
+
+4.  `def validateAndRespond (inputAsJson: String): Unit`
+
+   ```scala
+   def validateAndRespond (input: String): Unit = {
+     val request = JsonParseService.toNAMERequest(input)
+     if (validate(request)){
+       responseSuccess(input, request)
+     } else {
+       responseSuccess(input, request)
+     }
+   }
+   ```
+
+   ​
