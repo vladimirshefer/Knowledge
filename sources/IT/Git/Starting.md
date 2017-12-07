@@ -4,7 +4,7 @@
 
 1. Клонируешь проект
 
-- `> git clone project`
+   - `> git clone project`
 
 1. Делаешь копию ветки master (или develop)
 
