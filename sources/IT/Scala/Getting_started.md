@@ -1,4 +1,4 @@
-##Установка Scala
+## Установка Scala
 
 - Скачайте и установите [Scala](https://www.scala-lang.org/download/all.html). Надежный вариант - `Scala 2.11.4` 
 - Устанавливаем в [переменных системы](https://www.java.com/ru/download/help/path.xml) путь к `Scala/bin`
@@ -30,7 +30,7 @@ Scala уже установлена, а вы - прекрасны!
 
 - Создаем в проекте пакет `src / main / scala / apps `
 
-- Создаем в нем Scala-класс Main
+- Создаем в нем Scala-объект Main
 
 ```scala
   object Main {
