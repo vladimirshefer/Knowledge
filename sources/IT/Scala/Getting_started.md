@@ -16,7 +16,7 @@ Scala уже установлена, а вы - прекрасны!
 
 ## Запуск в Intellij IDEA
 
-- `File - Settings- Plugins` 
+- `File - Settings - Plugins` 
 
 - В строке поиска набираем `Scala` 
 
