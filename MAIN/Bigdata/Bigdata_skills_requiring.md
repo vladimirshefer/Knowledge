@@ -1,53 +1,53 @@
 #Минимальные технические требования BigData Engineer
 
-### Data structures:
+#### Data structures:
 - Hash tables
 - Graphs & trees
 - Balanced trees
 - Sorting algorithms
-### OOP
+#### OOP
 - Basic concepts 
 - Overloading vs overriding 
 - Static members 
 - Access modifiers 
 - Nested, inner, abstract classes 
 - Interfaces 
-### GOF
+#### GOF
 - Classification of software design patterns 
 - examples 
-### SQL
+#### SQL
 - SQL 
 - Transactions 
 - Transaction isolation levels 
 - Stored procedures, triggers 
-### Java core
+#### Java core
 - Basic java 
 - Garbage collection 
 - Types of references 
 - Java memory model 
-### Collections
+#### Collections
 - Types of collections 
 - Concrete implementations 
 - Iterators 
 - Synchronized collections 
-### Multithreading
+#### Multithreading
 - Classic multithreading (join, wait, notify) 
 - Java.util.concurrent 
 - Deadlocks 
 - Volatile 
 - Atomics 
-### Spring
+#### Spring
 - Basic conceptions 
 - Structure of a framework 
 - Scopes 
 - AOP 
-### JPA (ORM)
+#### JPA (ORM)
 - What is this, why it is needed 
 - How it is organized 
-### Network
+#### Network
 - HTTP 
 - TCP vs UDP 
 - OSI 
-### Web services
+#### Web services
 - REST 
 - SOAP
