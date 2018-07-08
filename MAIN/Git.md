@@ -4,7 +4,10 @@
 
 1. Клонируешь проект
 
-   - `> git clone https://github.com/user/project.git` - Укажи ссылку на репозиторий. На GitHub ее можно получить тут ![Clone or download](https://image.prntscr.com/image/DKAanwI_SMe2_CUjXXhLBA.png)
+   - `> git clone https://github.com/user/project.git` - Укажи ссылку на репозиторий. 
+   
+   На GitHub ее можно получить тут   
+   ![Clone or download](https://image.prntscr.com/image/DKAanwI_SMe2_CUjXXhLBA.png)
 
 0. Начиная работать над задачей
    Делаешь копию ветки master (или develop)
